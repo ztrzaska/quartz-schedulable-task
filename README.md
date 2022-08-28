@@ -17,7 +17,7 @@ At startup few jobs are created with data from initialization sql script. The me
 INSERT INTO BATCH_PROCESS(ID, TYPE, CRONE) values (1, 'READ_CUSTOMERS', '0/5 * * * * ?');
 INSERT INTO BATCH_PROCESS(ID, TYPE, CRONE) values (2, 'READ_PRODUCTS', '0/11 * * * * ?');
 INSERT INTO BATCH_PROCESS(ID, TYPE, CRONE) values (3, 'CREATE_FEES', '0 45 10 * * ?');
-INSERT INTO BATCH_PROCESS(ID, TYPE, CRONE) values (4, 'CREATE_CONTRIBUTIONS', '0 0 11 * * ?');```
+INSERT INTO BATCH_PROCESS(ID, TYPE, CRONE) values (4, 'CREATE_CONTRIBUTIONS', '0 0 11 * * ?');
 ```
 
 
