@@ -1,6 +1,6 @@
 # Quartz schedulable engine with jobs parameterized from database
 
-# Getting Started
+### Getting Started
 
 Implementation of quartz scheduler by retrieving cron descriptions from database. End customer can simple change cron's parameters by changing field in database.
 
